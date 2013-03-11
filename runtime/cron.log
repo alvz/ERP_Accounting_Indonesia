@@ -1,0 +1,100 @@
+2013/02/06 14:11:32 [error] [php] PDO::__construct(): [2002] No such file or directory (trying to connect via unix:///var/mysql/mysql.sock) (/usr/local/zend/apache2/htdocs/framework/db/CDbConnection.php:422)
+Stack trace:
+#0 /usr/local/zend/apache2/htdocs/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /usr/local/zend/apache2/htdocs/framework/db/CDbConnection.php(309): CDbConnection->setActive()
+#2 /usr/local/zend/apache2/htdocs/framework/base/CModule.php(388): CDbConnection->init()
+#3 /usr/local/zend/apache2/htdocs/framework/base/CModule.php(104): CConsoleApplication->getComponent()
+#4 /usr/local/zend/apache2/htdocs/aphris/protected/commands/cronCommand.php(5): CConsoleApplication->__get()
+#5 unknown(0): cronCommand->actionIndex()
+#6 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs()
+#7 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommandRunner.php(68): cronCommand->run()
+#8 /usr/local/zend/apache2/htdocs/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /usr/local/zend/apache2/htdocs/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#10 /usr/local/zend/apache2/htdocs/framework/yiic.php(34): CConsoleApplication->run()
+#11 /usr/local/zend/apache2/htdocs/aphris/protected/yiic.php(7): require_once()
+#12 /usr/local/zend/apache2/htdocs/aphris/protected/yiic(4): require_once()
+
+2013/02/06 15:13:07 [error] [php] include(gPerson.php): failed to open stream: No such file or directory (/usr/local/zend/apache2/htdocs/framework/YiiBase.php:423)
+Stack trace:
+#0 /usr/local/zend/apache2/htdocs/aphris/protected/commands/cronCommand.php(10): spl_autoload_call()
+#1 unknown(0): cronCommand->actionIndex()
+#2 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs()
+#3 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommandRunner.php(68): cronCommand->run()
+#4 /usr/local/zend/apache2/htdocs/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /usr/local/zend/apache2/htdocs/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /usr/local/zend/apache2/htdocs/framework/yiic.php(34): CConsoleApplication->run()
+#7 /usr/local/zend/apache2/htdocs/aphris/protected/yiic.php(7): require_once()
+#8 /usr/local/zend/apache2/htdocs/aphris/protected/yiic(4): require_once()
+
+2013/02/06 15:24:20 [error] [php] include(gPerson.php): failed to open stream: No such file or directory (/usr/local/zend/apache2/htdocs/framework/YiiBase.php:423)
+Stack trace:
+#0 /usr/local/zend/apache2/htdocs/aphris/protected/commands/cronCommand.php(10): spl_autoload_call()
+#1 unknown(0): cronCommand->actionIndex()
+#2 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs()
+#3 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommandRunner.php(68): cronCommand->run()
+#4 /usr/local/zend/apache2/htdocs/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /usr/local/zend/apache2/htdocs/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /usr/local/zend/apache2/htdocs/framework/yiic.php(34): CConsoleApplication->run()
+#7 /usr/local/zend/apache2/htdocs/aphris/protected/yiic.php(7): require_once()
+#8 /usr/local/zend/apache2/htdocs/aphris/protected/yiic(4): require_once()
+
+2013/02/06 15:24:29 [error] [php] include(gPerson.php): failed to open stream: No such file or directory (/usr/local/zend/apache2/htdocs/framework/YiiBase.php:423)
+Stack trace:
+#0 /usr/local/zend/apache2/htdocs/aphris/protected/commands/cronCommand.php(10): spl_autoload_call()
+#1 unknown(0): cronCommand->actionIndex()
+#2 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs()
+#3 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommandRunner.php(68): cronCommand->run()
+#4 /usr/local/zend/apache2/htdocs/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /usr/local/zend/apache2/htdocs/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /usr/local/zend/apache2/htdocs/framework/yiic.php(34): CConsoleApplication->run()
+#7 /usr/local/zend/apache2/htdocs/aphris/protected/yiic.php(7): require_once()
+#8 /usr/local/zend/apache2/htdocs/aphris/protected/yiic(4): require_once()
+
+2013/02/06 15:26:08 [error] [php] implode(): Invalid arguments passed (/usr/local/zend/apache2/htdocs/aphris/protected/modules/m1/models/gPerson.php:113)
+Stack trace:
+#0 /usr/local/zend/apache2/htdocs/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct()
+#1 /usr/local/zend/apache2/htdocs/aphris/protected/components/BaseModel.php(13): model()
+#2 /usr/local/zend/apache2/htdocs/aphris/protected/modules/m1/models/gPerson.php(55): model()
+#3 /usr/local/zend/apache2/htdocs/aphris/protected/commands/cronCommand.php(10): model()
+#4 unknown(0): cronCommand->actionIndex()
+#5 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs()
+#6 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommandRunner.php(68): cronCommand->run()
+#7 /usr/local/zend/apache2/htdocs/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#8 /usr/local/zend/apache2/htdocs/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#9 /usr/local/zend/apache2/htdocs/framework/yiic.php(34): CConsoleApplication->run()
+#10 /usr/local/zend/apache2/htdocs/aphris/protected/yiic.php(7): require_once()
+#11 /usr/local/zend/apache2/htdocs/aphris/protected/yiic(4): require_once()
+
+2013/02/06 15:29:10 [error] [php] implode(): Invalid arguments passed (/usr/local/zend/apache2/htdocs/aphris/protected/modules/m1/models/gPerson.php:113)
+Stack trace:
+#0 /usr/local/zend/apache2/htdocs/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct()
+#1 /usr/local/zend/apache2/htdocs/aphris/protected/components/BaseModel.php(13): model()
+#2 /usr/local/zend/apache2/htdocs/aphris/protected/modules/m1/models/gPerson.php(55): model()
+#3 /usr/local/zend/apache2/htdocs/aphris/protected/commands/cronCommand.php(10): model()
+#4 unknown(0): cronCommand->actionIndex()
+#5 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs()
+#6 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommandRunner.php(68): cronCommand->run()
+#7 /usr/local/zend/apache2/htdocs/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#8 /usr/local/zend/apache2/htdocs/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#9 /usr/local/zend/apache2/htdocs/framework/yiic.php(34): CConsoleApplication->run()
+#10 /usr/local/zend/apache2/htdocs/aphris/protected/yiic.php(7): require_once()
+#11 /usr/local/zend/apache2/htdocs/aphris/protected/yiic(4): require_once()
+
+2013/02/06 15:59:36 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status_id' in 'field list'. The SQL statement executed was: insert into z_ar_log 
+			(description, action, model, idModel, status_id, userid) VALUES 
+			('Ozi Syaerozi','INSERT','gLeave',1,1,1).
+2013/02/06 15:59:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status_id' in 'field list'. The SQL statement executed was: insert into z_ar_log 
+			(description, action, model, idModel, status_id, userid) VALUES 
+			('Ozi Syaerozi','INSERT','gLeave',1,1,1)' in /usr/local/zend/apache2/htdocs/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /usr/local/zend/apache2/htdocs/aphris/protected/commands/cronCommand.php(14): CDbCommand->execute()
+#1 [internal function]: cronCommand->actionIndex()
+#2 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommand.php(173): ReflectionMethod->invokeArgs(Object(cronCommand), Array)
+#3 /usr/local/zend/apache2/htdocs/framework/console/CConsoleCommandRunner.php(68): CConsoleCommand->run(Array)
+#4 /usr/local/zend/apache2/htdocs/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /usr/local/zend/apache2/htdocs/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /usr/local/zend/apache2/htdocs/framework/yiic.php(34): CApplication->run()
+#7 /usr/local/zend/apache2/htdocs/aphris/protected/yiic.php(7): require_once('/usr/local/zend...')
+#8 /usr/local/zend/apache2/htdocs/aphris/protected/yiic(4): require_once('/usr/local/zend...')
+#9 {main}
+---

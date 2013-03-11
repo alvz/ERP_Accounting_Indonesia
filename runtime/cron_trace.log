@@ -1,0 +1,72 @@
+2013/02/06 14:10:46 [trace] [system.CModule] Loading "log" application component
+2013/02/06 14:11:32 [trace] [system.CModule] Loading "log" application component
+2013/02/06 14:11:32 [trace] [system.CModule] Loading "db" application component
+2013/02/06 14:11:32 [trace] [system.db.CDbConnection] Opening DB connection
+2013/02/06 14:11:32 [trace] [system.CModule] Loading "errorHandler" application component
+2013/02/06 14:13:52 [trace] [system.CModule] Loading "log" application component
+2013/02/06 14:13:52 [trace] [system.CModule] Loading "db" application component
+2013/02/06 14:13:52 [trace] [system.db.CDbConnection] Opening DB connection
+2013/02/06 14:13:52 [trace] [system.db.CDbCommand] Executing SQL: insert into s_user 
+		(username, password, salt, default_group, status_id, superuser, created_date, created_by, last_login) VALUES 
+		('username','password','123456',1,1,0,12345678,1,12345678)
+2013/02/06 15:13:07 [trace] [system.CModule] Loading "log" application component
+2013/02/06 15:13:07 [trace] [system.CModule] Loading "errorHandler" application component
+2013/02/06 15:24:20 [trace] [system.CModule] Loading "log" application component
+2013/02/06 15:24:20 [trace] [system.CModule] Loading "errorHandler" application component
+2013/02/06 15:24:29 [trace] [system.CModule] Loading "log" application component
+2013/02/06 15:24:29 [trace] [system.CModule] Loading "errorHandler" application component
+2013/02/06 15:26:08 [trace] [system.CModule] Loading "log" application component
+2013/02/06 15:26:08 [trace] [system.CModule] Loading "db" application component
+2013/02/06 15:26:08 [trace] [system.db.CDbConnection] Opening DB connection
+2013/02/06 15:26:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `g_person`
+2013/02/06 15:26:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `g_person`
+2013/02/06 15:26:08 [trace] [system.CModule] Loading "errorHandler" application component
+2013/02/06 15:29:10 [trace] [system.CModule] Loading "log" application component
+2013/02/06 15:29:10 [trace] [system.CModule] Loading "db" application component
+2013/02/06 15:29:10 [trace] [system.db.CDbConnection] Opening DB connection
+2013/02/06 15:29:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `g_person`
+2013/02/06 15:29:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `g_person`
+2013/02/06 15:29:10 [trace] [system.CModule] Loading "errorHandler" application component
+2013/02/06 15:59:36 [trace] [system.CModule] Loading "log" application component
+2013/02/06 15:59:36 [trace] [system.CModule] Loading "db" application component
+2013/02/06 15:59:36 [trace] [system.db.CDbConnection] Opening DB connection
+2013/02/06 15:59:36 [trace] [system.db.CDbCommand] Querying SQL: select * from g_person limit 10
+2013/02/06 15:59:36 [trace] [system.db.CDbCommand] Executing SQL: insert into z_ar_log 
+			(description, action, model, idModel, status_id, userid) VALUES 
+			('Ozi Syaerozi','INSERT','gLeave',1,1,1)
+2013/02/06 15:59:36 [trace] [system.CModule] Loading "coreMessages" application component
+2013/02/06 15:59:36 [trace] [system.CModule] Loading "errorHandler" application component
+2013/02/06 16:00:11 [trace] [system.CModule] Loading "log" application component
+2013/02/06 16:00:11 [trace] [system.CModule] Loading "db" application component
+2013/02/06 16:00:11 [trace] [system.db.CDbConnection] Opening DB connection
+2013/02/06 16:00:11 [trace] [system.db.CDbCommand] Querying SQL: select * from g_person limit 10
+2013/02/06 16:00:11 [trace] [system.db.CDbCommand] Executing SQL: insert into z_ar_log 
+			(description, action, model, idModel, userid) VALUES 
+			('Ozi Syaerozi','INSERT','gLeave',1,1)
+2013/02/06 16:00:11 [trace] [system.db.CDbCommand] Executing SQL: insert into z_ar_log 
+			(description, action, model, idModel, userid) VALUES 
+			('M. Ramdoni ','INSERT','gLeave',1,1)
+2013/02/06 16:00:11 [trace] [system.db.CDbCommand] Executing SQL: insert into z_ar_log 
+			(description, action, model, idModel, userid) VALUES 
+			('A Syahril ','INSERT','gLeave',1,1)
+2013/02/06 16:00:11 [trace] [system.db.CDbCommand] Executing SQL: insert into z_ar_log 
+			(description, action, model, idModel, userid) VALUES 
+			('Martika Retno wahyuni','INSERT','gLeave',1,1)
+2013/02/06 16:00:11 [trace] [system.db.CDbCommand] Executing SQL: insert into z_ar_log 
+			(description, action, model, idModel, userid) VALUES 
+			('Joko Triono ','INSERT','gLeave',1,1)
+2013/02/06 16:00:11 [trace] [system.db.CDbCommand] Executing SQL: insert into z_ar_log 
+			(description, action, model, idModel, userid) VALUES 
+			('Hari Andriyanto ','INSERT','gLeave',1,1)
+2013/02/06 16:00:11 [trace] [system.db.CDbCommand] Executing SQL: insert into z_ar_log 
+			(description, action, model, idModel, userid) VALUES 
+			('Nur Rahman resky Teja','INSERT','gLeave',1,1)
+2013/02/06 16:00:11 [trace] [system.db.CDbCommand] Executing SQL: insert into z_ar_log 
+			(description, action, model, idModel, userid) VALUES 
+			('Harlyanto Lutfi W.','INSERT','gLeave',1,1)
+2013/02/06 16:00:11 [trace] [system.db.CDbCommand] Executing SQL: insert into z_ar_log 
+			(description, action, model, idModel, userid) VALUES 
+			('Joko Handoko ','INSERT','gLeave',1,1)
+2013/02/06 16:00:11 [trace] [system.db.CDbCommand] Executing SQL: insert into z_ar_log 
+			(description, action, model, idModel, userid) VALUES 
+			('M Taufik Hidayat ','INSERT','gLeave',1,1)
